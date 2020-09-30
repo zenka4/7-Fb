@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr 240px;
+    grid-template-areas:
+    "head head head" 
+    "menu feed msg";
+}
+head{
+    grid-area: head;
+    background-color: blue;
+}
+aside{
+    background-color: #ccc;
+}
+main{
+    background-color: yellow;
+}
