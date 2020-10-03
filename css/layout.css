@@ -5,13 +5,20 @@ body{
     "head head head" 
     "menu feed msg";
 }
-head{
+body > header{
     grid-area: head;
     background-color: blue;
 }
-aside{
+body > aside{
     background-color: #ccc;
 }
-main{
+    .menu {
+        grid-area: menu;
+    }
+    .messenger {
+        grid-area: msg;
+    }
+}
+body > main{
     background-color: yellow;
 }
