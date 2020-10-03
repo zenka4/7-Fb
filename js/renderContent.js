@@ -7,3 +7,4 @@ function renderContent(data) {
                 ${renderContentGallery()}
             </div>`;
 }
+export default renderContent;
